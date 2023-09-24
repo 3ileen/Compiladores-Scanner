@@ -1,0 +1,7 @@
+{* int a
+a | a
+str b
+cosmos
+fifi
+bubble int |
+*} |*
