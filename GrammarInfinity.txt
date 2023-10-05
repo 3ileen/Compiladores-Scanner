@@ -1,17 +1,17 @@
 INFINITY - GRAMATICA
 
-Program -> StamentList
+Program := StamentList
 StamentList  -> Stament NEW_LINE StamentList
-Stament -> Typevar
+Stament -> Typevar // mas cosas
 TypeVarVarios -> function (expression)
 function (expression)
 	fifi (condition) { NEW_LINE  stamentList NEW_LINE} of {NEW_LINE stamentList NEW_LINE}
     	bubble(ID in ID ){NEW_LINE stamentList NEW_LINE}	
     	bob (condition) {NEW_LINE stamentList NEW_LINE}
-TypeVar -> Type id | Operation
-        -> Type id
-Expresión -> id comparation_Expresion
-          ->  id
+TypeVar -> Type id | Operation // error 
+        -> E
+Expresión -> id comparation_Expresion //error
+          ->  E
 Comparation_Expresion -> comparación Comparation_Expresion’
                       -> expresión
                       ->  E
@@ -21,7 +21,8 @@ Funtion -> cosmos
 
 Valor -> 0,1,2,3,4,5,6,7,8,9
              String 
-             “a..z,A….Z”
+             “a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,k,r,s,t,u,v,x,y,z"
+	     "A….Z”
 Type -> str, char,int, bool
 Comparación= igual
 Operation -> +,-,*,/ 
