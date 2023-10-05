@@ -1,6 +1,6 @@
 INFINITY - GRAMATICA
 
-Program := StamentList
+Program ::= StamentList
 StamentList  -> Stament NEW_LINE StamentList
 Stament -> Typevar // mas cosas
 TypeVarVarios -> function (expression)
