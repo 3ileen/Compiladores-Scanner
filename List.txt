@@ -1,0 +1,11 @@
+if = fifi
+function = cosmos
+int = int
+string= str
+while = bubble
+for = blob
+=  *|*
+star (* {*
+end *) *}
+end program= |*
+diferente = /*
