@@ -1,0 +1,1 @@
+fifi (* id *) {* newline id newline *} newline "
