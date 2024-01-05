@@ -1,27 +1,26 @@
-# INFINITY/ COMPILADOR
 
+# INFINITY/ COMPILER
 ### By: Eileen Karin Apaza Coaquira
-Descripción:
-Este proyecto es un compilador para un lenguaje de programación Infinity, fue desarrollado para el curso de Compiladores. Incluye componentes para análisis léxico, sintáctico y semántico.
+## Description:
+This project is a compiler for the Infinity programming language, developed for the Compiler course. It includes components for lexical, syntactic, and semantic analysis.
 
-## Características
-Scanner (Analizador Léxico): Implementa la lógica para identificar tokens, palabras clave, identificadores, números enteros, cadenas y otros elementos léxicos del lenguaje.
-Análisis Sintáctico y Semántico: Incluye funciones para calcular conjuntos "first" y "follows", así como generación de tablas de análisis sintáctico para un análisis descendente predictivo.
-Estructuras de Datos: Utiliza listas y diccionarios para almacenar gramática, primeros conjuntos, siguientes conjuntos y tablas de análisis sintáctico.
-Gramática del Lenguaje: Define reglas gramaticales para sentencias, expresiones, operadores, tipos de datos, funciones y otros elementos del lenguaje.
+## Features
+Scanner (Lexical Analyzer): Implements logic to identify tokens, keywords, identifiers, integers, strings, and other lexical elements of the language.
+Syntactic and Semantic Analysis: Includes functions to compute "first" and "follow" sets, as well as generating syntactic analysis tables for predictive descent analysis.
+Data Structures: Utilizes lists and dictionaries to store grammar, first sets, follow sets, and syntactic analysis tables.
+Language Grammar: Defines grammatical rules for statements, expressions, operators, data types, functions, and other language elements.
 
-## Uso
-Ejecución del Analizador Léxico (Scanner): Proporciona el código fuente como entrada para obtener los tokens y tipos asociados.
-Análisis Sintáctico y Semántico: Utiliza las funciones proporcionadas para realizar el análisis sintáctico y semántico de código fuente específico del lenguaje definido.
-Cómo Contribuir
+## Usage
+Execution of the Lexical Analyzer (Scanner): Provide the source code as input to obtain associated tokens and types.
+Syntactic and Semantic Analysis: Use the provided functions to perform syntactic and semantic analysis of specific source code defined in the language.
 
-Si quieres contribuir al desarrollo de este compilador, puedes seguir estos pasos:
+## How to Contribute
+If you want to contribute to the development of this compiler, follow these steps:
 
-Forkear el repositorio: Haz una copia del repositorio a tu cuenta.
-Clonar el repositorio: Clona el repositorio desde tu cuenta a tu máquina local.
-Hacer cambios: Realiza cambios y mejoras en el código según sea necesario.
-Enviar Pull Requests: Envía tus cambios al repositorio original mediante un Pull Request.
-
-## Notas Adicionales
-Este proyecto se encuentra en desarrollo activo y puede haber áreas para mejorar. Si tienes sugerencias, ideas o encuentras algún problema, ¡no dudes en abrir un issue o un pull request!, o escribirme a mi correo personal: 21eileenac@gmail.com
+Fork the repository: Make a copy of the repository to your account.
+Clone the repository: Clone the repository from your account to your local machine.
+Make changes: Make necessary changes and improvements in the code.
+Send Pull Requests: Submit your changes to the original repository through a Pull Request.
+## Additional Notes
+This project is actively under development, and there may be areas for improvement. If you have suggestions, ideas, or encounter any issues, feel free to open an issue or pull request, or contact me via my personal email: 21eileenac@gmail.com
 
